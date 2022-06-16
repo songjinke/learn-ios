@@ -11,6 +11,8 @@
 		73D942D82859D8C1006F9018 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D942D72859D8C1006F9018 /* ContentView.swift */; };
 		73D942DA2859D8C2006F9018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73D942D92859D8C2006F9018 /* Assets.xcassets */; };
 		73D942DD2859D8C2006F9018 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73D942DC2859D8C2006F9018 /* Preview Assets.xcassets */; };
+		73D942E4285B2401006F9018 /* ColorSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D942E3285B2401006F9018 /* ColorSwatch.swift */; };
+		73D942E6285B286C006F9018 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D942E5285B286C006F9018 /* ColorSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		73D942D72859D8C1006F9018 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		73D942D92859D8C2006F9018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73D942DC2859D8C2006F9018 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73D942E3285B2401006F9018 /* ColorSwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwatch.swift; sourceTree = "<group>"; };
+		73D942E5285B286C006F9018 /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				73D942D52859D8C1006F9018 /* SwiftUIBasicsApp.swift */,
 				73D942D72859D8C1006F9018 /* ContentView.swift */,
+				73D942E5285B286C006F9018 /* ColorSlider.swift */,
+				73D942E3285B2401006F9018 /* ColorSwatch.swift */,
 				73D942D92859D8C2006F9018 /* Assets.xcassets */,
 				73D942DB2859D8C2006F9018 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				73D942D82859D8C1006F9018 /* ContentView.swift in Sources */,
 				73D942D62859D8C1006F9018 /* SwiftUIBasicsApp.swift in Sources */,
+				73D942E6285B286C006F9018 /* ColorSlider.swift in Sources */,
+				73D942E4285B2401006F9018 /* ColorSwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
