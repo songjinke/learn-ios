@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(DataModel.data, id: \.self) { object in
+                HStack {
+                    Image(systemName: object.icon)
+                        .foregroundColor(object.color)
+                    Text("\(object.high)º F")
+                        .foregroundColor(Color.blue)
+                    NavigationLink(object.day, destination: DetailView(data: object))
+                }
+            }
+            .navigationTitle("Suzhou City")
+        }
     }
 }
 

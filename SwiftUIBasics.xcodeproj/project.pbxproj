@@ -11,6 +11,8 @@
 		73D942D82859D8C1006F9018 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D942D72859D8C1006F9018 /* ContentView.swift */; };
 		73D942DA2859D8C2006F9018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73D942D92859D8C2006F9018 /* Assets.xcassets */; };
 		73D942DD2859D8C2006F9018 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73D942DC2859D8C2006F9018 /* Preview Assets.xcassets */; };
+		73D942E8285C40CA006F9018 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D942E7285C40CA006F9018 /* DataModel.swift */; };
+		73D942EA285C4494006F9018 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D942E9285C4494006F9018 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		73D942D72859D8C1006F9018 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		73D942D92859D8C2006F9018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73D942DC2859D8C2006F9018 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73D942E7285C40CA006F9018 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		73D942E9285C4494006F9018 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				73D942D52859D8C1006F9018 /* SwiftUIBasicsApp.swift */,
 				73D942D72859D8C1006F9018 /* ContentView.swift */,
+				73D942E7285C40CA006F9018 /* DataModel.swift */,
 				73D942D92859D8C2006F9018 /* Assets.xcassets */,
 				73D942DB2859D8C2006F9018 /* Preview Content */,
+				73D942E9285C4494006F9018 /* DetailView.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73D942D82859D8C1006F9018 /* ContentView.swift in Sources */,
+				73D942EA285C4494006F9018 /* DetailView.swift in Sources */,
 				73D942D62859D8C1006F9018 /* SwiftUIBasicsApp.swift in Sources */,
+				73D942E8285C40CA006F9018 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
